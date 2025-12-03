@@ -1,0 +1,136 @@
+﻿@page "/"
+
+@using FreeToGameExplorer.Models
+@using FreeToGameExplorer.Services
+@inject IGameApiClient GameApiClient
+
+<h1>Free-To-Play Games Explorer</h1>
+
+<EditForm Model="@searchModel" OnValidSubmit="@OnSearch">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div style="margin-bottom: 20px;">
+        <label>Title: </label>
+        <InputText @bind-Value="searchModel.Title" />
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <label>Genre: </label>
+        <InputSelect @bind-Value="searchModel.Genre">
+            <option value="">All</option>
+            @foreach (var genre in genres)
+            {
+                <option value="@genre">@genre</option>
+            }
+        </InputSelect>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <label>Platform: </label>
+        <InputSelect @bind-Value="searchModel.Platform">
+            <option value="">All</option>
+            <option value="pc">PC</option>
+            <option value="browser">Browser</option>
+        </InputSelect>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <label>Sort by: </label>
+        <InputSelect @bind-Value="searchModel.SortBy">
+            <option value="">None</option>
+            <option value="alphabetical">Alphabetical</option>
+            <option value="release-date">Newest</option>
+            <option value="popularity">Popularity</option>
+        </InputSelect>
+    </div>
+
+    <button type="submit">Search</button>
+</EditForm>
+
+@if (isLoading)
+{
+    <p>Loading games...</p>
+}
+else if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p style="color:red">@errorMessage</p>
+}
+else if (games.Count == 0)
+{
+    <p>No games found.</p>
+}
+else
+{
+    <div style="display:flex; flex-wrap:wrap; gap:20px;">
+        @foreach (var g in games)
+        {
+            <div style="border:1px solid #444; padding:10px; width:250px;">
+                <img src="@g.Thumbnail" style="width:100%;" />
+                <h3>@g.Title</h3>
+                <p>@g.ShortDescription</p>
+                <NavLink href="@($"/game/{g.Id}")">View details</NavLink>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<GameSummary> games = new();
+    private HashSet<string> genres = new();
+    private bool isLoading = true;
+    private string? errorMessage;
+
+    private SearchModel searchModel = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadGamesAsync();
+    }
+
+    private async Task OnSearch()
+    {
+        await LoadGamesAsync();
+    }
+
+    private async Task LoadGamesAsync()
+    {
+        isLoading = true;
+        errorMessage = null;
+
+        try
+        {
+            var result = await GameApiClient.GetGamesAsync(
+                titleFilter: searchModel.Title,
+                genre: searchModel.Genre,
+                platform: searchModel.Platform,
+                sortBy: searchModel.SortBy
+            );
+
+            games = result.ToList();
+
+            genres = games
+                .Select(g => g.Genre)
+                .Where(g => !string.IsNullOrWhiteSpace(g))
+                .Distinct()
+                .ToHashSet();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Error loadiing games.";
+            Console.WriteLine(ex);
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    public class SearchModel
+    {
+        public string? Title { get; set; }
+        public string? Genre { get; set; }
+        public string? Platform { get; set; }
+        public string? SortBy { get; set; }
+    }
+}
