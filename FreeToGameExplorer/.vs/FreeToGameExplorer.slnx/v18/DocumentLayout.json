@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|c:\\users\\darin\\onedrive\\desktop\\ca3blazor\\freetogameexplorer\\pages\\populargames.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|solutionrelative:pages\\populargames.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|c:\\users\\darin\\onedrive\\desktop\\ca3blazor\\freetogameexplorer\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|c:\\users\\darin\\onedrive\\desktop\\ca3blazor\\freetogameexplorer\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|solutionrelative:pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28A93E2E-AD02-0136-CE82-B7B1DA064F7F}|..\\FreeToGameExplorer.E2E\\FreeToGameExplorer.E2E.csproj|c:\\users\\darin\\onedrive\\desktop\\ca3blazor\\freetogameexplorer.e2e\\gameexplorertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,24 +70,8 @@
       "RelativeMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|solutionrelative:wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|c:\\users\\darin\\onedrive\\desktop\\ca3blazor\\freetogameexplorer\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|solutionrelative:pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|c:\\users\\darin\\onedrive\\desktop\\ca3blazor\\freetogameexplorer\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|solutionrelative:pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|c:\\users\\darin\\onedrive\\desktop\\ca3blazor\\freetogameexplorer\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|c:\\users\\darin\\onedrive\\desktop\\ca3blazor\\freetogameexplorer\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|c:\\users\\darin\\onedrive\\desktop\\ca3blazor\\freetogameexplorer\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{818C0BAA-CFAE-9639-4B17-19E4AAA9A53A}|FreeToGameExplorer.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\darin\\AppData\\Local\\Temp\\.vsdbgsrc\\1ca169b5f8096b3fd01bc738c77225099d363dea7bb508bd774b256157500bca\\Monitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -96,6 +92,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PopularGames.razor",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\PopularGames.razor",
+              "RelativeDocumentMoniker": "Pages\\PopularGames.razor",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\PopularGames.razor",
+              "RelativeToolTip": "Pages\\PopularGames.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T23:29:09.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T23:14:45.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GameExplorerTests.cs",
               "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer.E2E\\GameExplorerTests.cs",
               "RelativeDocumentMoniker": "..\\FreeToGameExplorer.E2E\\GameExplorerTests.cs",
@@ -108,46 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T13:55:37.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "wwwroot\\css\\app.css",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAAI0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-08T20:55:51.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\App.razor",
-              "RelativeDocumentMoniker": "App.razor",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\App.razor",
-              "RelativeToolTip": "App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T14:30:22.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\_Imports.razor",
               "RelativeDocumentMoniker": "_Imports.razor",
@@ -160,120 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\Index.razor",
-              "RelativeToolTip": "Pages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T13:37:27.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IGameApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Services\\IGameApiClient.cs",
-              "RelativeDocumentMoniker": "Services\\IGameApiClient.cs",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Services\\IGameApiClient.cs",
-              "RelativeToolTip": "Services\\IGameApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T21:15:07.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Services\\GameApiClient.cs",
-              "RelativeDocumentMoniker": "Services\\GameApiClient.cs",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Services\\GameApiClient.cs",
-              "RelativeToolTip": "Services\\GameApiClient.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowD8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T21:15:16.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GameSummary.cs",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Models\\GameSummary.cs",
-              "RelativeDocumentMoniker": "Models\\GameSummary.cs",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Models\\GameSummary.cs",
-              "RelativeToolTip": "Models\\GameSummary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T13:48:49.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GameDetail.cs",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Models\\GameDetail.cs",
-              "RelativeDocumentMoniker": "Models\\GameDetail.cs",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Models\\GameDetail.cs",
-              "RelativeToolTip": "Models\\GameDetail.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:59:55.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-08T15:08:56.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "favicon.png",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\favicon.png",
-              "RelativeDocumentMoniker": "wwwroot\\favicon.png",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\favicon.png",
-              "RelativeToolTip": "wwwroot\\favicon.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-12-08T21:19:51.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\index.html",
-              "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-12-08T21:19:45.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "icon-192.png",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\icon-192.png",
-              "RelativeDocumentMoniker": "wwwroot\\icon-192.png",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\icon-192.png",
-              "RelativeToolTip": "wwwroot\\icon-192.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-12-08T21:19:47.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "NotFound.razor",
               "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\NotFound.razor",
               "RelativeDocumentMoniker": "Pages\\NotFound.razor",
@@ -286,20 +156,159 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\Weather.razor",
-              "RelativeToolTip": "Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T21:15:57.745Z",
+              "WhenOpened": "2025-12-08T14:30:22.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "wwwroot\\css\\app.css",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAI0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-08T20:55:51.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T13:37:27.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:55:37.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IGameApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Services\\IGameApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\IGameApiClient.cs",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Services\\IGameApiClient.cs",
+              "RelativeToolTip": "Services\\IGameApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T21:15:07.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Services\\GameApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\GameApiClient.cs",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Services\\GameApiClient.cs",
+              "RelativeToolTip": "Services\\GameApiClient.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowD8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T21:15:16.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameSummary.cs",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Models\\GameSummary.cs",
+              "RelativeDocumentMoniker": "Models\\GameSummary.cs",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Models\\GameSummary.cs",
+              "RelativeToolTip": "Models\\GameSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:48:49.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameDetail.cs",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Models\\GameDetail.cs",
+              "RelativeDocumentMoniker": "Models\\GameDetail.cs",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Models\\GameDetail.cs",
+              "RelativeToolTip": "Models\\GameDetail.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:59:55.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T15:08:56.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "favicon.png",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.png",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\favicon.png",
+              "RelativeToolTip": "wwwroot\\favicon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-12-08T21:19:51.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-08T21:19:45.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "icon-192.png",
+              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\icon-192.png",
+              "RelativeDocumentMoniker": "wwwroot\\icon-192.png",
+              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\wwwroot\\icon-192.png",
+              "RelativeToolTip": "wwwroot\\icon-192.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-12-08T21:19:47.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
@@ -312,33 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Layout\\NavMenu.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T21:19:39.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\darin\\OneDrive\\Desktop\\CA3Blazor\\FreeToGameExplorer\\Pages\\Counter.razor",
-              "RelativeToolTip": "Pages\\Counter.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T19:16:27.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "Monitor.cs",
               "DocumentMoniker": "C:\\Users\\darin\\AppData\\Local\\Temp\\.vsdbgsrc\\1ca169b5f8096b3fd01bc738c77225099d363dea7bb508bd774b256157500bca\\Monitor.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\1ca169b5f8096b3fd01bc738c77225099d363dea7bb508bd774b256157500bca\\Monitor.cs",
@@ -351,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "AddressBinder.cs",
               "DocumentMoniker": "C:\\Users\\darin\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs",
