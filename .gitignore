@@ -3,6 +3,10 @@ bin/
 obj/
 *.user
 *.suo
+<<<<<<< HEAD
+*.tmp
+*.cache
+TestResults/
 *.cache
 *.tmp
 
