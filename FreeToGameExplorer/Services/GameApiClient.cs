@@ -1,17 +1,16 @@
-using System.Net.Http.Json;
+﻿using System.Net.Http.Json;
 using FreeToGameExplorer.Models;
 
 namespace FreeToGameExplorer.Services;
 
+//I wil change names later (if I have time)
 public class GameApiClient : IGameApiClient
 {
     private readonly HttpClient _http;
-
     public GameApiClient(HttpClient http)
     {
         _http = http;
     }
-
     public async Task<IReadOnlyList<GameSummary>> GetGamesAsync(
         string? titleFilter = null,
         string? genre = null,
@@ -20,20 +19,13 @@ public class GameApiClient : IGameApiClient
     {
         var url = "games";
 
-        var queryParams = new List<string>();
-
-        if (!string.IsNullOrWhiteSpace(genre))
-            queryParams.Add($"category={Uri.EscapeDataString(genre)}");
-
-        if (!string.IsNullOrWhiteSpace(platform))
-            queryParams.Add($"platform={Uri.EscapeDataString(platform)}");
-
+        //add additional params later (but I have enough to meet my CA requirements now)
         if (!string.IsNullOrWhiteSpace(sortBy))
-            queryParams.Add($"sort-by={Uri.EscapeDataString(sortBy)}");
+        {
+            url += $"?sort-by={Uri.EscapeDataString(sortBy)}";
+        }
 
-        if (queryParams.Count > 0)
-            url += "?" + string.Join("&", queryParams);
-
+        //api is working but for handling
         var games = await _http.GetFromJsonAsync<List<GameSummary>>(url)
                     ?? new List<GameSummary>();
 
@@ -44,13 +36,32 @@ public class GameApiClient : IGameApiClient
                 .Where(g => g.Title.ToLowerInvariant().Contains(lower))
                 .ToList();
         }
+        //filtering (I need change css later)
+        if (!string.IsNullOrWhiteSpace(genre))
+        {
+            games = games
+                .Where(g =>
+                    !string.IsNullOrWhiteSpace(g.Genre) &&
+                    string.Equals(g.Genre, genre, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+        }
 
-        return games;
+        if (!string.IsNullOrWhiteSpace(platform))
+        {
+            games = games
+                .Where(g =>
+                    !string.IsNullOrWhiteSpace(g.Platform) &&
+                    g.Platform.Contains(platform, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+        }
+
+        return games;   //that's my game list here
     }
 
     public async Task<GameDetail?> GetGameAsync(int id)
     {
         var url = $"game?id={id}";
+        // null in return if there is nothing
         return await _http.GetFromJsonAsync<GameDetail>(url);
     }
 }
