@@ -113,3 +113,59 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+
+
+.genre-chart {
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+.genre-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.genre-label {
+    width: 180px;
+    font-size: 0.9rem;
+}
+
+.genre-bar-container {
+    flex: 1;
+    background-color: #eee;
+    height: 16px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/*maybe some white color? - Need tot try different one*/
+.genre-bar {
+    height: 100%;
+    background-color: chocolate; 
+}
+
+.app-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/*centre my content*/
+.main-content {
+    max-width: 1100px;
+    margin: 0 auto 2rem auto;
+}
+
+.genre-chart-card {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+.btn.btn-sm {
+    padding: 2px 8px;
+    font-size: 0.85rem;
+}
+

@@ -1,1 +1,4 @@
-<Solution />
+<Solution>
+  <Project Path="../FreeToGameExplorer.E2E/FreeToGameExplorer.E2E.csproj" />
+  <Project Path="FreeToGameExplorer.csproj" />
+</Solution>
