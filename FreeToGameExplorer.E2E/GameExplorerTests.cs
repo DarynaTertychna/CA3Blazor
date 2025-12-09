@@ -55,7 +55,7 @@ namespace FreeToGameExplorer.E2E
             _driver.Navigate().GoToUrl(BaseUrl);
             // page header here
             _wait.Until(ExpectedConditions.ElementIsVisible(
-                By.XPath("//*[contains(text(),'Free-To-Play Games Explorer')]")));
+                By.XPath("//*[contains(text(),'Free*To*Play Games Explorer')]")));
             // card of the game here
             _wait.Until(ExpectedConditions.ElementExists(
                 By.CssSelector("[data-testid='game-card']")));
@@ -87,7 +87,7 @@ namespace FreeToGameExplorer.E2E
                 By.CssSelector("[data-testid='validation-message']")));
 
             Assert.That(validation.Text.Trim(),
-                Is.EqualTo("Title must be at least 3 characters long."));
+                Is.EqualTo("Title must be more than 3 characters long!!!"));
         }
 
         [Test]
