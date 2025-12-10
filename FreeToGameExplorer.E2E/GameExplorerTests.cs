@@ -136,3 +136,4 @@ namespace FreeToGameExplorer.E2E
 }
 // Need to explain in  my papers that playwright wasn't working, so ended up with selenium and unit
 // tetst for paging if have enought time
+// for video
