@@ -13,6 +13,9 @@ namespace FreeToGameExplorer.E2E
     {
         // 7060 is actual address for this app, 5168 - if failing. Add two address if no other options.
         private const string BaseUrl = "https://localhost:7060/";
+
+        //private const string BaseUrl = "http://localhost:5128/";
+        //5128 for tests
         private IWebDriver _driver = null!;
         private WebDriverWait _wait = null!;
 
@@ -132,3 +135,4 @@ namespace FreeToGameExplorer.E2E
     }
 }
 // Need to explain in  my papers that playwright wasn't working, so ended up with selenium and unit
+// tetst for paging if have enought time

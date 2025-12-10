@@ -32,6 +32,7 @@ builder.Services.AddScoped<IGameApiClient>(sp =>
 });
 
 
+//async void TestMyError r() { }    //to test my code analysis
 
 
 await builder.Build().RunAsync();

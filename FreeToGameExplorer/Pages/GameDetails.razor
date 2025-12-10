@@ -83,9 +83,11 @@ else
         <div style="display:flex; flex-wrap:wrap; gap:10px;">
             @foreach (var shot in game.Screenshots)
             {
-                <img src="@shot.Image"
-                     alt="Screenshot"
-                     style="width:250px; border:1px solid #ddd;" />
+                <a href = "@shot.Image" target="_blank">
+                    <img src="@shot.Image"
+                         alt="Screenshot"
+                         style="width:250px; border:1px solid #ddd;" />
+                </a>
             }
         </div>
     }
