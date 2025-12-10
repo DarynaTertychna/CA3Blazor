@@ -1,9 +1,26 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=./index.html" />
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+        (function () {
+            //again a way to see details in github
+            var repoPath = "/CA3Blazor";
+
+            //sends the user back
+            var path = window.location.pathname;
+            if (!path.startsWith(repoPath)) {
+                path = repoPath + path;
+            }
+
+            var newUrl = repoPath + "/index.html#!" + path.replace(repoPath, "");
+            window.location.replace(newUrl);
+        })();
+    </script>
 </head>
 <body>
-    <p>Redirecting...</p>
+    <p>Redirecting…</p>
 </body>
 </html>
